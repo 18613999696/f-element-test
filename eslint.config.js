@@ -6,7 +6,7 @@ import { defineConfig } from 'eslint/config';
 
 
 export default defineConfig([
-  { files: ['**/*.{js,mjs,cjs,ts,mts,cts,vue}'], plugins: { js }, extends: ['js/recommended'], 
+  { files: ['**/*.{js,mjs,ts,mts,cts,vue}'], plugins: { js }, extends: ['js/recommended'], 
     rules: {
       // 强制 JavaScript 和 TypeScript 代码使用单引号
       'quotes': ['error', 'single'],
