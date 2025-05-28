@@ -18,6 +18,6 @@ module.exports = {
     confirmCommit: '确认使用以上信息提交？(y/n)'
   },
   allowBreakingChanges: ['feat', 'fix'],
-  skipQuestions: ['scope', 'body', 'breaking', 'footer', 'confirmCommit'],
+  skipQuestions: ['scope', 'body', 'breaking', 'footer'],
   subjectLimit: 72
 };
