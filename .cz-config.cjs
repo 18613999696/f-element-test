@@ -15,11 +15,9 @@ module.exports = {
   messages: {
     type: '请选择提交类型:',
     subject: '请简要描述提交内容（不超过 72 个字符）:',
-    body: '请输入详细描述（可选，按回车跳过）:',
-    breaking: '是否有破坏性变更（可选，按回车跳过）:',
-    footer: '请输入关联的 Issue（可选，按回车跳过）:',
     confirmCommit: '确认使用以上信息提交？(y/n)'
   },
   allowBreakingChanges: ['feat', 'fix'],
+  skipQuestions: ['scope', 'body', 'breaking', 'footer', 'confirmCommit'],
   subjectLimit: 72
 };
