@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
+import HelloWorld from './components/HelloWorld.vue';
 </script>
 
 <template>
@@ -25,7 +25,7 @@ import HelloWorld from './components/HelloWorld.vue'
       >
     </a>
   </div>
-  <HelloWorld msg="vite+vue" />
+  <HelloWorld msg="vite+vue22" />
 </template>
 
 <style scoped>
