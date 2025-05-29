@@ -1,4 +1,3 @@
-/* eslint-env node */
 module.exports = {
   types: [
     { value: 'feat',     name: 'feat:     新增功能' },
